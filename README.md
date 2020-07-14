@@ -4,7 +4,7 @@ This project is a very simple example of how you can execute an image of Redis w
 
 ## How
 
-<img src="resources/architecture.png" width="40%" height="25%">
+<img src="resources/architecture.png" width="30%" height="20%">
 
 ## Steps
 
