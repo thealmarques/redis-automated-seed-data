@@ -1,0 +1,16 @@
+version: '3.0'
+
+services: 
+    redis:
+        restart: always
+        build: 
+            context: .
+            dockerfile: redis/Dockerfile
+        ports: 
+            - "6379:6379"
+        networks: 
+            - redis-network
+
+networks: 
+    redis-network:
+        driver: bridge
